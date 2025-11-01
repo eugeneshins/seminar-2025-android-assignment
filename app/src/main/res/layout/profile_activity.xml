@@ -37,7 +37,7 @@
                 android:id="@+id/setting_button"
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:background="?attr/selectableItemBackgroundBorderless"
+                android:background="@android:color/transparent"
                 android:contentDescription="설정"
                 android:paddingEnd="16dp"
                 android:scaleType="fitCenter"

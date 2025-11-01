@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
@@ -68,4 +69,14 @@ dependencies {
         debugImplementation(libs.androidx.compose.ui.tooling)
         debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-}
+        implementation(libs.kotlinx.serialization.json)
+        //coil 이미지 로딩 라이브러리
+        implementation("io.coil-kt:coil-compose:2.7.0")
+
+        implementation("androidx.datastore:datastore-preferences:1.1.1")
+
+        // Jetpack Navigation for Compose 추가
+        implementation("androidx.navigation:navigation-compose:2.8.0-beta01")
+    }
+
+
