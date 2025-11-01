@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Assignment2</string>
+=======
+    <string name="app_name">seminar-assignment-2025</string>
+>>>>>>> upstream/main
 </resources>

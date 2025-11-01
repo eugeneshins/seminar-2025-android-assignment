@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
 
     <style name="Theme.Assignment2" parent="android:Theme.Material.Light.NoActionBar" />
+=======
+        <style name="Theme.Seminarassignment2025" parent="Theme.AppCompat.Light.NoActionBar"/>
+<!--    <style name="Theme.Seminarassignment2025" parent="android:Theme.Material.Light.NoActionBar" />-->
+>>>>>>> upstream/main
 </resources>
